@@ -20,7 +20,8 @@ const STANDINGS = [
   {conference:"Western", division:"Central", name: "Dallas Stars", rank: "3", points: 93, wildcard: false},
   {conference:"Western", division:"Pacific", name: "Vancouver Canucks",rank: "1", points: 94, wildcard: false},
   {conference:"Western", division:"Pacific", name: "Edmonton Oilers", rank: "2", points: 86, wildcard: false},
-  {conference:"Western", division:"Pacific", name: "Los Angeles Kings",rank: "3", points: 83, wildcard: false},  
+  {conference:"Western", division:"Pacific", name: "Los Angeles Kings",rank: "3", points: 83, wildcard: false},
+  
 ]
 
 function CustomNHLStandings({standings}) {
