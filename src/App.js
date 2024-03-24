@@ -2,7 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 
 const STANDINGS = [
-  {conference: "Eastern", division:"Atlantic", name: "Boston Bruins", rank: "1", points: 97, wildcard: false},
+  {conference:"Eastern", division:"Atlantic", name: "Boston Bruins", rank: "1", points: 97, wildcard: false},
   {conference:"Eastern", division:"Atlantic", name: "Florida Panthers", rank: "2", points: 94, wildcard: false },
   {conference:"Eastern", division:"Atlantic", name: "Toronto Maple Leafs", rank: "3", points: 85, wildcard: false},
   {conference:"Eastern", division:"Metropolitan", name: "New York Rangers", rank: "1", points: 94, wildcard: false},
