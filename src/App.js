@@ -15,6 +15,9 @@ const STANDINGS = [
   {conference:"Eastern", division:"", name: "Buffalo Sabres", rank: "5", points: 71, wildcard: true},
   {conference:"Eastern", division:"", name: "New Jersey Devils", rank: "6", points: 70, wildcard: true},
   {conference:"Eastern", division:"", name: "Pittsburgh Penguins", rank: "7", points: 69, wildcard: true},
+  {conference:"Eastern", division:"", name: "Montréal Canadiens", rank: "8", points: 62, wildcard: true},
+  {conference:"Eastern", division:"", name: "Ottawa Senators", rank: "9", points: 60, wildcard: true},
+  {conference:"Eastern", division:"", name:"Columbus Blue Jackets", rank: "10", points: 58, wildcard: true},
   {conference:"Western", division:"Central", name: "Winnipeg Jets", rank: "1", points: 93, wildcard: false},
   {conference:"Western", division:"Central", name: "Colorado Avalanche", rank: "2", points: 93, wildcard: false},
   {conference:"Western", division:"Central", name: "Dallas Stars", rank: "3", points: 93, wildcard: false},
@@ -31,19 +34,7 @@ const STANDINGS = [
   {conference:"Western", division:"", name:"Anaheim Ducks", rank: "8", points: 51, wildcard: true},
   {conference:"Western", division:"", name:"Chicago Blackhawks", rank: "9", points: 43, wildcard: true},
   {conference:"Western", division:"", name:"San Jose Sharks", rank: "10", points: 39, wildcard: true},
-
-
-
 ]
-/*
-  [6,"","Seattle Kraken",68,28,28,12,68,0.5,22,25,183,199,-16,"14-15-6","14-13-6","3-4","3-6-1","L4"  ],
-  [7,"","Arizona Coyotes",69,28,36,5,61,0.442,23,26,203,229,-26,"17-16-0","11-20-5","2-0","5-5-0","L1"  ],
-  [8,"","Anaheim Ducks",70,24,43,3,51,0.364,18,23,175,252,-77,"11-24-1","13-19-2","1-1","2-8-0","W1"  ],
-  [9,"","Chicago Blackhawks",70,19,46,5,43,0.307,14,18,152,252,-100,"14-18-4","5-28-1","1-1","4-6-0","L2"  ],
-  [10,"","San Jose Sharks",69,16,46,7,39,0.283,12,15,151,280,-129,"10-20-3","6-26-4","1-5","1-8-1","L6"  ]
-]
-  
-]*/
 
 function CustomNHLStandings({standings}) {
   return (
